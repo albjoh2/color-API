@@ -4,6 +4,7 @@ import { FC } from "react";
 import { buttonVariants } from "@/components/ui/Button";
 import SignOutButton from "@/components/SignOutButton";
 import SignInButton from "@/components/SignInButton";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const Navbar = async () => {
   const session = await getServerSession();
