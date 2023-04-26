@@ -8,7 +8,7 @@ import LargeHeading from "./ui/LargeHeading";
 import Paragraph from "./ui/Paragraph";
 import CopyButton from "./CopyButton";
 import { Input } from "@/ui/Input";
-import Button from "./ui/Button";
+import { Button } from "./ui/Button";
 
 const RequestApiKey: FC = () => {
   const [isCreating, setIsCreating] = useState<boolean>(false);

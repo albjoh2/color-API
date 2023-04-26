@@ -17,7 +17,7 @@ const Navbar = async () => {
           text Similarity 1.0
         </Link>
 
-        <div className="md-hidden">
+        <div className="md:hidden">
           <ThemeToggle />
         </div>
 
@@ -25,7 +25,10 @@ const Navbar = async () => {
           <ThemeToggle />
           <Link
             href="/documentation"
-            className={buttonVariants({ variant: "ghost" })}
+            className={buttonVariants({
+              variant: "ghost",
+              className: "text-slate-100",
+            })}
           >
             Documentation
           </Link>
@@ -33,7 +36,10 @@ const Navbar = async () => {
           {session ? (
             <>
               <Link
-                className={buttonVariants({ variant: "ghost" })}
+                className={buttonVariants({
+                  variant: "ghost",
+                  className: "text-slate-100",
+                })}
                 href="/dashboard"
               >
                 Dashboard

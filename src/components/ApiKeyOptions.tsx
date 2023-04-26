@@ -9,7 +9,7 @@ import {
   DropdownMenuSeparator,
 } from "./ui/DropdownMenu";
 import { useState } from "react";
-import Button from "./ui/Button";
+import { Button } from "./ui/Button";
 import { toast } from "./ui/Toast";
 import { Loader2 } from "lucide-react";
 import { revokeApiKey } from "@/helpers/revoke-api-key";
