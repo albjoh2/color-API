@@ -52,4 +52,5 @@ const handler = async (
     });
   }
 };
-export default withMethods(["POST"], handler);
+
+export default withMethods(["GET"], handler);
