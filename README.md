@@ -1,4 +1,4 @@
-## This project is a result of fallowing the tutorial "Master NextJS 13: Build and Deploy a Modern Full-Stack App in Just 5 Hours!" by Josh tried coding url: https://www.youtube.com/watch?v=4lUkSgvmTYM Josh: https://www.youtube.com/@joshtriedcoding
+## This project is a result of following the tutorial "Master NextJS 13: Build and Deploy a Modern Full-Stack App in Just 5 Hours!" by Josh tried coding url: https://www.youtube.com/watch?v=4lUkSgvmTYM Josh: https://www.youtube.com/@joshtriedcoding
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
